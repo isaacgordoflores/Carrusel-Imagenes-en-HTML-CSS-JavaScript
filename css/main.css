@@ -23,6 +23,7 @@ body {
 .images{
     display: flex;
     transform: translateX(0);
+    transition: transform 1s ease-in-out;
 }
 
 /* Controles */
