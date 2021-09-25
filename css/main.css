@@ -15,7 +15,9 @@ body {
 /* Carrusel */
 .carrusel {
     width: 400px;
-    height: 350px;
+    height: 345px;
+    border: 1px solid green;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -30,11 +32,12 @@ body {
 .controls {
     display: flex;
     justify-content: space-between;
-
 }
 
 .btn {
-    border: none;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
     background-color: goldenrod;
     flex-basis: 33%;
     cursor: pointer;
